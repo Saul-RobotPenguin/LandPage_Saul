@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  border: 0px;
+  font-family: "Nunito", sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #020305;
+  position: fixed;
+  z-index: 99999;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  float: left;
+}
+
+li a {
+  display: flexbox;
+  color: white;
+  text-align: center;
+  padding: 14px 150px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+#home-section {
+  background-color: #020305;
+}
+
+.image-container {
+  width: 100%;
+  height: 40rem;
+  display: block;
+  margin: 0rem;
+  object-fit: fill;
+}
+
+.Button-Page {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #4aa8c4;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Button-Page a {
+  text-decoration: none;
+  font-family: "Red Hat Mono", monospace;
+  color: white;
+}
+#Title {
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 27%;
+  font-size: 124px;
+}
+
+/* About Us Section*/
+
+#AboutUs {
+  background-color: #003a40;
+  font-family: "Red Hat Mono", monospace;
+  padding-top: 10%;
+  color: white;
+}
+
+.container-for-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-container2 {
+  width: 30%;
+  height: 15rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.headingForImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 7%;
+}
+
+/* Our Mission statement  */
+#Mission-Statement {
+  background-color: #020305;
+  padding: 15%;
+}
+.resize-Mission-Statement {
+  display: flex;
+  justify-content: center;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 200%;
+  color: white;
+}
+.resize-Who-said-it {
+  display: flex;
+  justify-content: center;
+  font-size: 175%;
+  font-family: "Red Hat Mono", monospace;
+  color: white;
+}
+
+/* Contact Us  */
+#Contact-Us {
+  background-color: #003a40;
+  display: flex;
+  justify-content: center;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 175%;
+}
+
+.form-Adjustments {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+textarea[type="text"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 25%;
+}
+
+.form {
+  width: 850px;
+  height: 800px;
+  margin: auto;
+  position: relative;
+  color: white;
+}
+
+.form p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 325%;
+}
+
+.button-form {
+  position: absolute;
+  top: 80%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #4aa8c4;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Red Hat Mono", monospace;
+}
+
+/* Footer */
+
+#Footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #020305;
+  color: white;
+}
